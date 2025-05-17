@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: #f8c34a;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.blog-list article {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.blog-list img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.post img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.meta {
+  color: gray;
+  font-size: 0.9em;
+}
+footer {
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
